@@ -1,0 +1,30 @@
+#taxcalc-section {
+  margin: 24px;
+}
+
+#badge-container {
+  row-gap: 12px;
+  column-gap: 16px;
+  flex-wrap: wrap;
+}
+
+.persons-container {
+  width: 45%;
+}
+
+.persons-container > span {
+  /* font-size: 11px;
+  padding: 3px; */
+}
+
+.text__person--name {
+  font-size: 11px;
+  line-height: 9px;
+  padding: 3px;
+  background-color: lightblue;
+}
+
+.text__price {
+  font-size: 13px !important;
+  font-weight: bold;
+}
