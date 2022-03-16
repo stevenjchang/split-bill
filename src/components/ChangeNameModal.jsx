@@ -16,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 import { GrEdit } from "react-icons/gr";
 
-const ChangeNameModal = ({ propsIsOpen, idx, handleNameChange }) => {
+const ChangeNameModal = ({ propsIsOpen, idx, personName, handleNameChange }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [value, setValue] = useState(null);
 
